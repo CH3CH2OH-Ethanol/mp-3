@@ -48,7 +48,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     p, li, a{
-        font-size: calc(13px + .4vw);
+        font-size: calc(13px + .3vw);
         line-height: 1.5;
     }
 `;
