@@ -28,27 +28,27 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h1{
-        font-size: calc(20px + 1vw);
+        font-size: calc(25px + 1vw);
         margin: 10px 0;
     }
 
     h2{
-        font-size: calc(16px + .8vw);
+        font-size: calc(19px + .8vw);
         color: rgb(195 102 56);
     }
 
     h3{
-        font-size: calc(14px + .6vw);
+        font-size: calc(17px + .6vw);
         color: rgb(173 118 204);
     }
 
     h4{
-        font-size: calc(12px + .5vw);
+        font-size: calc(15px + .5vw);
         color: rgb(66 110 200);
     }
 
     p, li, a{
-        font-size: calc(10px + .4vw);
+        font-size: calc(13px + .4vw);
         line-height: 1.5;
     }
 `;
