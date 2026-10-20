@@ -8,11 +8,22 @@ const StyledNav = styled.nav`
 
     background-color: rgb(25 26 28);
     border-radius: 10px;
+
+    @media screen and (max-width: 750px){
+        width: 100%;
+        padding: 5px 20px;
+    }
 `;
 
 const NavList = styled.ul`
     list-style: none;
     padding: 0;
+
+    @media screen and (max-width: 750px){
+        display: flex;
+        overflow: auto;
+        scrollbar-width: none;
+    }
 `;
 
 const StyledLink = styled(Link)`
@@ -26,6 +37,10 @@ const StyledLink = styled(Link)`
     
     &:hover{
         background-color: rgb(51 53 59);
+    }
+
+    @media screen and (max-width: 750px){
+        padding: 10px;
     }
 `;
 

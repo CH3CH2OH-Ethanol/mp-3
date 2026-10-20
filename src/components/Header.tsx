@@ -4,6 +4,10 @@ const StyledHeader = styled.header`
     padding: 20px;
 
     background-color: rgb(38 40 44);
+
+    @media screen and (max-width: 750px){
+        text-align: center;
+    }
 `;
 
 const Note = styled.p`
@@ -13,8 +17,11 @@ const Note = styled.p`
 const ContactList = styled.ul`
     margin: 10px 0;
     padding: 0;
+    
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    
     color: rgb(136 136 136);
     
     list-style: none;

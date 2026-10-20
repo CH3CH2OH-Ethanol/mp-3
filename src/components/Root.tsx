@@ -12,6 +12,14 @@ import styled from "styled-components";
 const Container = styled.div`
     display: flex;
     gap: 6px;
+    
+    @media screen and (max-width: 750px){
+        flex-direction: column;
+    }
+
+    @media screen and (max-width: 1000px) {
+        flex-wrap: wrap;
+    }
 `;
 
 const StyledMain = styled.main`
@@ -32,6 +40,10 @@ const StyledMain = styled.main`
     & h3,
     & p{
         margin-bottom: 15px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        width: 100%;
     }
 `;
 
