@@ -37,6 +37,10 @@ const OpLabel = styled.label`
     
 `;
 
+const ResultSpan = styled.span<{$color: string}>`
+    color: ${({$color}) => $color};
+`
+
 function Calculator() {
     const {setNum1, setNum2, setOperation, result} = useCalculator(zero);
 
@@ -83,7 +87,7 @@ function Calculator() {
             />
 
             <span>=</span>
-            <span>{result}</span>
+            <ResultSpan $color={(result < 0)?"red":"inherit"}>{result}</ResultSpan>
 
             {/*<button onClick={clearParam}>Clear</button>*/}
         </div>
