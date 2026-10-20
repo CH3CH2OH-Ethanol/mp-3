@@ -6,7 +6,7 @@ const StyledFooter = styled.footer`
     padding: 10px;
 
     background-color: rgb(38 40 44);
-`
+`;
 
 function Footer() {
     return (

@@ -1,3 +1,5 @@
+import Calculator from "./Calculator.tsx";
+
 function Projects() {
     return (
         <>
@@ -90,25 +92,7 @@ function Projects() {
                 <header className="project-header">
                     <h4>Calculator</h4>
                 </header>
-                <div className="calculator">
-                    <input type="text" id="first-number"/>
-
-                    <div className="calculator-buttons">
-                        {/*TODO*/}
-                        <button onClick={addition}>+</button>
-                        <button onClick={subtract}>-</button>
-                        <button onClick={multiply}>&times;</button>
-                        <button onClick={divide}>&divide;</button>
-                        <button onClick={power}>^</button>
-                    </div>
-
-                    <input type="text" id="second-number"/>
-
-                    <span>=</span>
-                    <span id="result"></span>
-
-                    <button onClick={clearParam}>Clear</button>
-                </div>
+                <Calculator />
 
             </section>
         </>

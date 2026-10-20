@@ -1,12 +1,12 @@
 import Nav from "./Nav.tsx";
 import {Route, Routes} from "react-router-dom";
 import Home from "./pages/Home.tsx";
-import Education from "./pages/Education.tsx";
-import Experiences from "./pages/Experiences.tsx";
-import Projects from "./pages/Projects.tsx";
+import Education from "./pages/Education/Education.tsx";
+import Experiences from "./pages/Experiences/Experiences.tsx";
+import Projects from "./pages/Projects/Projects.tsx";
 import Skills from "./pages/Skills.tsx";
 import Creative from "./pages/Createive.tsx";
-import Languages from "./pages/Languages.tsx";
+import Languages from "./pages/Languages/Languages.tsx";
 import styled from "styled-components";
 
 const Container = styled.div`

@@ -4,7 +4,7 @@ const StyledHeader = styled.header`
     padding: 20px;
 
     background-color: rgb(38 40 44);
-`
+`;
 
 const Note = styled.p`
     color: rgb(97 140 79);
