@@ -13,11 +13,8 @@ const Container = styled.div`
     display: flex;
     gap: 6px;
     
-    @media screen and (max-width: 750px){
-        flex-direction: column;
-    }
-
     @media screen and (max-width: 1000px) {
+        flex-direction: column;
         flex-wrap: wrap;
     }
 `;
