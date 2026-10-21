@@ -47,7 +47,7 @@ const GlobalStyle = createGlobalStyle`
         color: rgb(66 110 200);
     }
 
-    p, li, a{
+    p, li, a, input, label, span{
         font-size: calc(13px + .3vw);
         line-height: 1.5;
     }

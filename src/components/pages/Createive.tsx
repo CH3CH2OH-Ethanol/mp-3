@@ -1,6 +1,8 @@
 function Creative() {
     return (
         <>
+            <title>Creative | Resume</title>
+
             <h2>Creative Work & Interests</h2>
 
             <section>

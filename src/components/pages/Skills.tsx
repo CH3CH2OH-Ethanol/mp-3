@@ -1,6 +1,8 @@
 function Skills() {
     return (
         <>
+            <title>Skills | Resume</title>
+
             <h2>Technical Skills</h2>
 
             <section>

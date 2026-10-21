@@ -3,6 +3,8 @@ import Calculator from "./Calculator.tsx";
 function Projects() {
     return (
         <>
+            <title>Projects | Resume</title>
+
             <h2>Projects</h2>
 
             <section>

@@ -1,6 +1,8 @@
 function Home() {
     return (
         <>
+            <title>Home | Resume</title>
+
             <h2>Hi, I'm Ethan Wang.</h2>
             <p>
                 I'm a Computer Science student at Boston University interested in software engineering, programming education, and

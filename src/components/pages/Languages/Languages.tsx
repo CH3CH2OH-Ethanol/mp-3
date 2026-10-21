@@ -1,6 +1,8 @@
 function Languages() {
     return (
         <>
+            <title>Languages | Resume</title>
+
             <h2>Languages</h2>
 
             <section>

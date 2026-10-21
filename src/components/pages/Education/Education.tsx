@@ -2,6 +2,7 @@ function Education() {
     return (
         <>
             <title>Education | Resume</title>
+
             <h2>EDUCATION</h2>
 
             <section>

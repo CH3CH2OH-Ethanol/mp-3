@@ -1,6 +1,8 @@
 function Experiences() {
     return (
         <>
+            <title>Experiences | Resume</title>
+
             <h2>EXPERIENCE</h2>
 
             <article>

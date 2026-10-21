@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import styled from "styled-components";
 
 const StyledNav = styled.nav`
@@ -26,7 +26,7 @@ const NavList = styled.ul`
     }
 `;
 
-const StyledLink = styled(Link)`
+const StyledLink = styled(NavLink)`
     padding: 10px 25px;
     border-radius: 10px;
     
@@ -38,9 +38,18 @@ const StyledLink = styled(Link)`
     &:hover{
         background-color: rgb(51 53 59);
     }
+    
+    &.active{
+         background-color: rgb(53 72 131);
+    }
 
     @media screen and (max-width: 1000px){
         padding: 10px;
+        
+        &.active{
+            background-color: rgb(53 72 131);
+            border: 1px solid rgb(40 87 200);
+        }
     }
 `;
 
